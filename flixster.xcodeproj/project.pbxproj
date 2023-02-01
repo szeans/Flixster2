@@ -19,6 +19,8 @@
 		124A9A8D297B19F6006AAACF /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = 124A9A8C297B19F6006AAACF /* Nuke */; };
 		124A9A90297B1B67006AAACF /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124A9A8F297B1B67006AAACF /* Movies.swift */; };
 		124A9A92297B1DB9006AAACF /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124A9A91297B1DB9006AAACF /* MovieListViewController.swift */; };
+		F9A59880298A16D100C3D8DA /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A5987F298A16D100C3D8DA /* MovieCell.swift */; };
+		F9A59882298A214F00C3D8DA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A59881298A214F00C3D8DA /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		124A9A89297B18AF006AAACF /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		124A9A8F297B1B67006AAACF /* Movies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
 		124A9A91297B1DB9006AAACF /* MovieListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
+		F9A5987F298A16D100C3D8DA /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		F9A59881298A214F00C3D8DA /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +118,8 @@
 				124A9A62297B180A006AAACF /* LaunchScreen.storyboard */,
 				124A9A65297B180A006AAACF /* Info.plist */,
 				124A9A91297B1DB9006AAACF /* MovieListViewController.swift */,
+				F9A5987F298A16D100C3D8DA /* MovieCell.swift */,
+				F9A59881298A214F00C3D8DA /* DetailViewController.swift */,
 			);
 			path = flixster;
 			sourceTree = "<group>";
@@ -282,7 +288,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				124A9A92297B1DB9006AAACF /* MovieListViewController.swift in Sources */,
+				F9A59880298A16D100C3D8DA /* MovieCell.swift in Sources */,
 				124A9A58297B1808006AAACF /* AppDelegate.swift in Sources */,
+				F9A59882298A214F00C3D8DA /* DetailViewController.swift in Sources */,
 				124A9A90297B1B67006AAACF /* Movies.swift in Sources */,
 				124A9A5A297B1808006AAACF /* SceneDelegate.swift in Sources */,
 			);
