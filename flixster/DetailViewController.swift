@@ -23,7 +23,7 @@ class DetailViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         if let movie = movie {
-            Nuke.loadImage(with: movie.poster_url, into: imgBg)
+            Nuke.loadImage(with: URL(string: Movie.posterBaseURLString + movie.backdrop_path)!, into: imgBg)
             titleMovie.text = movie.original_title
             votes.text = String(format: "%d Votes", movie.vote_count)
             voteAvg.text = String(format: "%.2f Vote Average", movie.vote_average)
