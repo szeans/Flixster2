@@ -130,6 +130,12 @@
                                             <constraint firstItem="Oq6-od-DXe" firstAttribute="top" secondItem="tFY-V1-ZtS" secondAttribute="top" constant="5" id="cGQ-m6-uzr"/>
                                             <constraint firstItem="Oq6-od-DXe" firstAttribute="leading" secondItem="tFY-V1-ZtS" secondAttribute="leading" constant="5" id="o2A-rL-1L6"/>
                                         </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="cGQ-m6-uzr"/>
+                                                <exclude reference="DY5-6k-tUD"/>
+                                            </mask>
+                                        </variation>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="qrG-3f-yQJ">
                                         <rect key="frame" x="0.0" y="372" width="388" height="51.333333333333314"/>
@@ -165,10 +171,10 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="2zY-Fk-s4b">
-                                        <rect key="frame" x="0.0" y="496.33333333333343" width="383" height="208.66666666666669"/>
+                                        <rect key="frame" x="0.0" y="496.33333333333343" width="388" height="208.66666666666669"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sZB-ck-a4d">
-                                                <rect key="frame" x="0.0" y="0.0" width="383" height="208.66666666666666"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="388" height="208.66666666666666"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -189,9 +195,22 @@
                                     <constraint firstItem="qrG-3f-yQJ" firstAttribute="leading" secondItem="nCf-b0-0gZ" secondAttribute="leading" constant="5" id="RMC-Mn-vr0"/>
                                     <constraint firstAttribute="bottom" secondItem="2zY-Fk-s4b" secondAttribute="bottom" constant="5" id="WsI-iy-Bz4"/>
                                     <constraint firstItem="2zY-Fk-s4b" firstAttribute="leading" secondItem="nCf-b0-0gZ" secondAttribute="leading" constant="5" id="Yv1-1q-XhO"/>
-                                    <constraint firstItem="2zY-Fk-s4b" firstAttribute="top" secondItem="qrG-3f-yQJ" secondAttribute="bottom" constant="5" id="lXX-ww-5db"/>
                                     <constraint firstAttribute="trailing" secondItem="tFY-V1-ZtS" secondAttribute="trailing" constant="5" id="o9D-2P-HaL"/>
                                 </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="7uD-Xi-UOc"/>
+                                        <exclude reference="ESw-3q-wBQ"/>
+                                        <exclude reference="2Rr-Wx-Wsh"/>
+                                        <exclude reference="4TK-B1-eZa"/>
+                                        <exclude reference="RMC-Mn-vr0"/>
+                                        <exclude reference="16w-jD-rVP"/>
+                                        <exclude reference="F78-PN-dWF"/>
+                                        <exclude reference="OQ0-Rw-OMd"/>
+                                        <exclude reference="WsI-iy-Bz4"/>
+                                        <exclude reference="Yv1-1q-XhO"/>
+                                    </mask>
+                                </variation>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="cMH-ll-BYL"/>
